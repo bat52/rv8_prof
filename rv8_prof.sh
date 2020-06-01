@@ -1,6 +1,6 @@
 #/usr/bin/bash
 # author: Marco Merlin, marcomerli @ gmail.com
-# license:  
+# license: Apache v2.0
 
 EXE=$1
 DUMP=$EXE.txt
