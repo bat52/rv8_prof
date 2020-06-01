@@ -26,3 +26,6 @@ rm $DUMP
 # print top 30 entries
 head -n 30 $PROFILE
 
+# generate pie graph
+cat $PROFILE | awk '{print $2,$1}' | ./pie.sh > $EXE.profile.svg
+
