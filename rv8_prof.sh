@@ -1,4 +1,4 @@
-#/usr/bin/bash
+#!/bin/bash
 # author: Marco Merlin, marcomerli @ gmail.com
 # license: Apache v2.0
 
