@@ -5,6 +5,8 @@ rv8_prof attempts at creating a low-level execution profile, based on the count 
 
 rv8_prof is based on the rv8 ISA simulator ( https://github.com/rv8-io/rv8 ).
 
+rv8_prof generates a pie chart output, based on the "Unix Pie" method ( http://xed.ch/b/2016/1217.html).
+
 # See Also:
 - gprof2dot: https://github.com/ghtdak/gprof2dot/blob/master/tests/json/memtrail.leaked.json
 - flamegraph: https://github.com/brendangregg/FlameGraph
