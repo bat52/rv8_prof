@@ -10,3 +10,5 @@ rv8_prof generates a pie chart output, based on the "Unix Pie" method ( http://x
 # See Also:
 - gprof2dot: https://github.com/ghtdak/gprof2dot/blob/master/tests/json/memtrail.leaked.json
 - flamegraph: https://github.com/brendangregg/FlameGraph
+- poor man's profiler: https://poormansprofiler.org/
+- flamegraph from poor man's profiler http://www.jwhitham.org/2015/03/why-is-this-taking-so-long-poor-mans.html
