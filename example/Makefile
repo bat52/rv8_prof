@@ -1,7 +1,6 @@
 
 CC=/opt/riscv/bin/riscv32-unknown-elf-gcc
 EXE=hello
-CFLAGS=-I.
 
 all: profile
 
