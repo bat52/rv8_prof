@@ -7,6 +7,28 @@ rv8_prof is based on the rv8 ISA simulator ( https://github.com/rv8-io/rv8 ).
 
 rv8_prof generates a pie chart output, based on the "Unix Pie" method ( http://xed.ch/b/2016/1217.html).
 
+# Use
+    CC=riscv32-unknown-elf-gcc # riscv compile from your toolchain
+    EXE=hello
+    $(CC) -o $(EXE) hello.c
+
+    # execute and profile
+    ./rv8_prof.sh $(EXE)
+
+    # browse text output
+    less $(EXE).profile.txt
+
+    # .svg pie chart output
+    ls $(EXE).profile.svg
+
+# Example
+
+An example is provided, under the folder ./example.
+Execute, with the following command:
+
+    cd ./example
+    make
+
 # See Also:
 - gprof2dot: https://github.com/ghtdak/gprof2dot/blob/master/tests/json/memtrail.leaked.json
 - flamegraph: https://github.com/brendangregg/FlameGraph
